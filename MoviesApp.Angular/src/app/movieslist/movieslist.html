@@ -1,0 +1,7 @@
+<main>
+
+    @for (m of movieService.getMovies(); track $index) {
+        <app-movie [image]="m.image" [title]="m.title" [year]="m.year" [category]="m.category" description="m.description" [status]="m.status"/>
+    }
+
+</main>

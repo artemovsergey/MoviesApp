@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+
+  @media (max-width: 400px) {
+    display: block;
+    text-align: center;
+    h1 {
+      margin: 1rem;
+      color: white;
+    }
+  }
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  background-color: var(--base);
+
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  input[type="search"] {
+    padding: 5px;
+  }
+}

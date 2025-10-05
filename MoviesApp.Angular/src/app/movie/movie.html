@@ -1,0 +1,11 @@
+<article (click)="clickOnMovie()">
+	<ul>
+		<li> <img [alt]="title"
+			      [src]="image"/></li>
+		<li>Название: {{title}} </li>
+		<li>Год выпуска: {{year}} </li>
+		<li>Категория: {{category}}</li>
+		<li>Описание: {{description}}</li>
+		<li>Cтатус: {{ status ? "В прокате" : "Снят с проката" }}</li>
+	</ul>
+</article>
